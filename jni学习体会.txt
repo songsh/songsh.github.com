@@ -1,0 +1,9 @@
+jni学习体会
+原因：项目中需要慢速播放功能，android 自带soundTool播放效果不佳。
+通过查找发现用libmad,libmpg123 + soundTouch,枫叶的慢速播放就是这么实现。
+soundTouch 找到demo,libmad 需要通过 jni 编译。
+在网上下libmad的 c 实现，把.c, android.mk 拷到项目 jni 下，但是无法编译出.so 文件
+也大致了解android.mk 命令，没有解决问题。
+
+参考：
+http://blog.csdn.net/conowen/article/details/7727145
