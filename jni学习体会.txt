@@ -5,5 +5,7 @@ soundTouch 找到demo,libmad 需要通过 jni 编译。
 在网上下libmad的 c 实现，把.c, android.mk 拷到项目 jni 下，但是无法编译出.so 文件
 也大致了解android.mk 命令，没有解决问题。
 
+
+
 参考：
 http://blog.csdn.net/conowen/article/details/7727145
